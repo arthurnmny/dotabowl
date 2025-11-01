@@ -1,0 +1,106 @@
+{
+    "description": "Dota 2 scoreboard showing 10 players with their KDA and net worth stats",
+    "winning_team": "Radiant",
+    "players": [
+        {
+            "player_name": "hollahatahballah",
+            "hero": "SNIPER",
+            "team": "Radiant",
+            "winner": true,
+            "kills": 18,
+            "deaths": 4,
+            "assists": 16,
+            "net_worth": 26874
+        },
+        {
+            "player_name": "Zoltrix",
+            "hero": "SVEN",
+            "team": "Radiant",
+            "winner": true,
+            "kills": 9,
+            "deaths": 1,
+            "assists": 17,
+            "net_worth": 30269
+        },
+        {
+            "player_name": "Primal Waste of Time™",
+            "hero": "BEASTMASTER",
+            "team": "Radiant",
+            "winner": true,
+            "kills": 6,
+            "deaths": 10,
+            "assists": 26,
+            "net_worth": 14648
+        },
+        {
+            "player_name": "SlugmanTheBrave",
+            "hero": "PRIMAL BEAST",
+            "team": "Radiant",
+            "winner": true,
+            "kills": 4,
+            "deaths": 6,
+            "assists": 32,
+            "net_worth": 12463
+        },
+        {
+            "player_name": "ampersand.",
+            "hero": "PUDGE",
+            "team": "Radiant",
+            "winner": true,
+            "kills": 6,
+            "deaths": 3,
+            "assists": 26,
+            "net_worth": 19291
+        },
+        {
+            "player_name": "Jackal",
+            "hero": "TINKER",
+            "team": "Dire",
+            "winner": false,
+            "kills": 14,
+            "deaths": 9,
+            "assists": 4,
+            "net_worth": 15874
+        },
+        {
+            "player_name": "Farlson",
+            "hero": "RINGMASTER",
+            "team": "Dire",
+            "winner": false,
+            "kills": 0,
+            "deaths": 8,
+            "assists": 12,
+            "net_worth": 8187
+        },
+        {
+            "player_name": "Ham_boy",
+            "hero": "NIGHT STALKER",
+            "team": "Dire",
+            "winner": false,
+            "kills": 5,
+            "deaths": 6,
+            "assists": 12,
+            "net_worth": 14411
+        },
+        {
+            "player_name": "Rainmaker",
+            "hero": "MARCI",
+            "team": "Dire",
+            "winner": false,
+            "kills": 4,
+            "deaths": 10,
+            "assists": 12,
+            "net_worth": 17812
+        },
+        {
+            "player_name": "Eddard Stark",
+            "hero": "SLARDAR",
+            "team": "Dire",
+            "winner": false,
+            "kills": 0,
+            "deaths": 10,
+            "assists": 17,
+            "net_worth": 8907
+        }
+    ]
+}

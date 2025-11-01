@@ -1,0 +1,15 @@
+streamlit
+requests
+pillow
+pandas
+plotly
+sqlalchemy
+alembic
+pytest
+transformers>=4.45.0,<4.50.0
+torch>=2.0.0
+accelerate
+sentencepiece
+ipywidgets
+widgetsnbextension
+torchvision

@@ -1,0 +1,106 @@
+{
+    "description": "Dota 2 scoreboard showing 10 players with their KDA and net worth stats",
+    "winning_team": "Radiant",
+    "players": [
+        {
+            "player_name": "Rainmaker",
+            "hero": "ABADDON",
+            "team": "Radiant",
+            "winner": true,
+            "kills": 7,
+            "deaths": 6,
+            "assists": 27,
+            "net_worth": 14836
+        },
+        {
+            "player_name": "Zoltrix",
+            "hero": "QUEEN OF PAIN",
+            "team": "Radiant",
+            "winner": true,
+            "kills": 15,
+            "deaths": 2,
+            "assists": 10,
+            "net_worth": 24906
+        },
+        {
+            "player_name": "Jackal",
+            "hero": "DEATH PROPHET",
+            "team": "Radiant",
+            "winner": true,
+            "kills": 12,
+            "deaths": 5,
+            "assists": 22,
+            "net_worth": 20749
+        },
+        {
+            "player_name": "rockthecatbox",
+            "hero": "DRAGON KNIGHT",
+            "team": "Radiant",
+            "winner": true,
+            "kills": 6,
+            "deaths": 7,
+            "assists": 20,
+            "net_worth": 18358
+        },
+        {
+            "player_name": "Eddard Stark",
+            "hero": "BRISTLEBACK",
+            "team": "Radiant",
+            "winner": true,
+            "kills": 2,
+            "deaths": 1,
+            "assists": 23,
+            "net_worth": 12020
+        },
+        {
+            "player_name": "ampersand.",
+            "hero": "TIMBERSAW",
+            "team": "Dire",
+            "winner": false,
+            "kills": 3,
+            "deaths": 8,
+            "assists": 10,
+            "net_worth": 11938
+        },
+        {
+            "player_name": "six",
+            "hero": "BEASTMASTER",
+            "team": "Dire",
+            "winner": false,
+            "kills": 3,
+            "deaths": 6,
+            "assists": 12,
+            "net_worth": 11543
+        },
+        {
+            "player_name": "SlugmanTheBrave",
+            "hero": "CLOCKWERK",
+            "team": "Dire",
+            "winner": false,
+            "kills": 3,
+            "deaths": 9,
+            "assists": 7,
+            "net_worth": 14904
+        },
+        {
+            "player_name": "Actual Waste of Time™",
+            "hero": "VENGEFUL SPIRIT",
+            "team": "Dire",
+            "winner": false,
+            "kills": 7,
+            "deaths": 11,
+            "assists": 9,
+            "net_worth": 15790
+        },
+        {
+            "player_name": "Farlson",
+            "hero": "NECROPHOS",
+            "team": "Dire",
+            "winner": false,
+            "kills": 4,
+            "deaths": 9,
+            "assists": 8,
+            "net_worth": 11313
+        }
+    ]
+}

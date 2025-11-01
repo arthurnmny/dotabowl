@@ -1,0 +1,36 @@
+I need you to analyze Dota 2 post-game scoreboard screenshots and convert them into structured JSON data.
+The Dota 2 scoreboard shows:
+
+Two teams: "The Radiant" (top) and "The Dire" (bottom)
+The winning team has a "WINNER" label next to their team name
+Each player row shows: player name, hero played, and stats columns
+Stats columns are: K (kills), D (deaths), A (assists), and NET (net worth)
+
+For each screenshot, extract the following information into JSON format:
+JSON Structure:
+{
+    "description": "Dota 2 scoreboard showing 10 players with their KDA and net worth stats",
+    "winning_team": "Radiant" or "Dire",
+    "players": [
+        {
+            "player_name": "string",
+            "hero": "HERO_NAME_IN_CAPS",
+            "team": "Radiant" or "Dire",
+            "winner": true or false,
+            "kills": number,
+            "deaths": number,
+            "assists": number,
+            "net_worth": number
+        }
+    ]
+}
+Key Requirements:
+
+List all 10 players (5 Radiant, 5 Dire) in order from top to bottom
+Hero names should be in ALL CAPS
+The "winner" field is true for the winning team's players, false for the losing team
+Read K/D/A/NET values carefully from their respective columns
+Maintain the exact player order shown in the screenshot
+
+Here's an example to validate your understanding:
+[Provide one of your test images and its corresponding JSON]
