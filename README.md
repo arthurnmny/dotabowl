@@ -1,10 +1,13 @@
 # Dotabowl - Dota 2 Match Data Analytics
 
-A comprehensive Dota 2 match data import and analytics dashboard system.
-
 ## Overview
 
-**Dotabowl** is a Python-based system for importing Dota 2 match data from JSON files and visualizing match statistics through an interactive dashboard. The system tracks player performance, team statistics, and match outcomes with support for incremental data imports.
+## Convert match to json data
+1. Setup claude to be able to interpret dota stats screen shots and convert it into json data. Use Claude_prompt.txt to prompt, include a sample json in match_data folder, "match1.json" then it's corresponding imaage from match_images folder, "match1.png".
+2. At the end of a dota2 game, screen shot the stats page, then paste into paint and save as png file.
+3. Upload the image to claude and have give you the json file.
+4. Save the json file, the file name will use the file name as the match name in the data.
+5. The json file can be reviewed and edited before being used in the db. There is a match description that currently has a generic placeholder, that shows up in the end dashboard.
 
 ## Core Components
 
@@ -29,13 +32,13 @@ pip install -r requirements.txt
 
 ### 2. Initialize Database
 ```bash
-# Create the database schema
+# Create the database schema, the database will be in the data/db/ folder as dota_ai.db
 python db.py
 ```
 
 ### 3. Import Match Data
 ```bash
-# Place JSON match files in match_data/ folder
+# Place JSON match files in match_data/ folder, the file name will be used as match_id
 # Run import (automatically detects new files)
 python import_matches.py
 
@@ -45,7 +48,7 @@ import_matches.bat
 
 ### 4. Launch Dashboard
 ```bash
-# Start the analytics dashboard
+# Start the analytics dashboard - streamlit will 
 python -m streamlit run dashboard_app.py
 ```
 
